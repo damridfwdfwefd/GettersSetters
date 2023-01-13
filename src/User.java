@@ -1,5 +1,5 @@
 public class User {
-    String firstName, lastName;
+    private String firstName, lastName;
 
     public User() {
         this.firstName = "";
@@ -7,16 +7,16 @@ public class User {
     }
 
     public void setFirstName(String firstName) {
-        if (this.firstName != "") {
+
             this.firstName = firstName;
-        }
+
 
     }
 
     public void setLastName(String lastName) {
-        if (this.lastName != "") {
+
             this.lastName = lastName;
-        }
+
     }
 
     public String getFullName() {
